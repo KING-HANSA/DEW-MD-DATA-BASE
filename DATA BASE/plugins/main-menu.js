@@ -78,7 +78,6 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '2':
-                        const config = await readEnv();
                         let response2 = `*◈ CONVERT COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -95,7 +94,6 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '3':
-                        const config = await readEnv();
                         let response3 = `*◈ AI COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -112,7 +110,6 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '4':
-                        const config = await readEnv();
                         let response4 = `*◈ SEARCH COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -130,7 +127,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '5':
-                        const config = await readEnv();
+                        
                         response5 = `*◈ DOWNLOAD COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -160,7 +157,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '6':
-                        const config = await readEnv();
+                        
                         response6 = `*◈ MAIN COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -184,7 +181,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '7':
-                        const config = await readEnv();
+                        
                         response7 = `*◈ GROUP COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -210,7 +207,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '8':
-                        const config = await readEnv();
+                        
                         response8 = `*◈ FUN COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -230,7 +227,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '9':
-                        const config = await readEnv();
+                        
                         response9 = `*◈ TOOLS COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
@@ -252,7 +249,7 @@ async (conn, mek, m, { from, pushname, reply }) => {
                         }, { quoted: mek });
                         break;
                     case '10':
-                        const config = await readEnv();
+                        
                         response10 = `*◈ OTHER COMMAND LIST ◈*
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ *RAM USAGE* - ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
